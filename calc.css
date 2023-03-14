@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
+
+h3{
+  text-align: center;
+  color: rgb(91, 0, 0);
+}
+
+body {
+  width: 500px;
+  margin: 4% auto;
+  font-family: 'Chonburi', cursive;
+  letter-spacing: 5px;
+  font-size: 1.8rem;
+  background-color:beige;
+}
+
+.calculator {
+  padding: 20px;
+  -webkit-box-shadow: 0px 1px 4px 0px rgb(91, 0, 0);
+  box-shadow: 0px 1px 4px 0px rgb(91, 0, 0);
+  border-radius: 10px;
+  color: rgb(91, 0, 0);
+}
+
+.input {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  height: 60px;
+  padding-right: 15px;
+  padding-top: 10px;
+  text-align: right;
+  margin-right: 6px;
+  font-size: 2.5rem;
+  overflow-x: auto;
+  transition: all .2s ease-in-out;
+}
+
+.input:hover {
+  border: 1px solid rgb(91, 0, 0);
+  -webkit-box-shadow: inset 0px 1px 4px 0px rgb(255, 255, 255);
+  box-shadow: inset 0px 1px 4px 0px rgb(255, 255, 255);
+  background-color: rgb(91, 0, 0);
+  color: beige;
+}
+
+
+
+.operators div {
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 80px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 4px 10px 0;
+  cursor: pointer;
+  color: beige ;
+  background-color: rgb(91, 0, 0);
+  transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.operators div:hover {
+  background-color:burlywood;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  border-color: black;
+  color: black;
+}
+
+.operators div:active {
+  font-weight: bold;
+}
+
+.leftPanel {
+  display: inline-block;
+}
+
+.numbers div {
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 80px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 4px 10px 0;
+  cursor: pointer;
+  color: beige;
+  background-color: rgb(91, 0, 0);
+  transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.numbers div:hover {
+  background-color: burlywood;
+  -webkit-box-shadow: 0px 1px 4px 0px black;
+  box-shadow: 0px 1px 4px 0px black;
+  border-color: black;
+  color: black;
+}
+
+.numbers div:active {
+  font-weight: bold;
+}
+
+div.equal {
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 10%;
+  text-align: center;
+  padding: 127px 10px;
+  margin: 10px 6px 10px 0;
+  vertical-align: top;
+  cursor: pointer;
+  color: beige;
+  background-color: rgb(91, 0, 0);
+  transition: all .2s ease-in-out;
+}
+
+div.equal:hover {
+  background-color: burlywood;
+  -webkit-box-shadow: 0px 1px 4px 0px black;
+  box-shadow: 0px 1px 4px 0px black;
+  border-color: black;
+  color: #141414;
+}
+
+div.equal:active {
+  font-weight: bold;
+}
+
+footer{
+  font-size: small;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  color: rgb(91, 0, 0);
+  font-weight: bold;
+}
